@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     {
         movementInput.x = ctx.ReadValue<Vector2>().x;
         movementInput.z = ctx.ReadValue<Vector2>().y;
-
     }
 
     private void MovePlayer()
