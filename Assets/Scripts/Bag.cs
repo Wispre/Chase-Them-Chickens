@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Counter : MonoBehaviour
+public class Bag : MonoBehaviour
 {
     private PlayerCollect playerCollect;
     private List<GameObject> chickens = new List<GameObject>();
@@ -10,6 +11,19 @@ public class Counter : MonoBehaviour
     public int GetCount()
     {
         return chickens.Count;
+    }
+    public void Release(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            if (chickens.Count <= 0) { return; }
+
+            var chicken = chickens[0];
+
+            chicken.SetActive(true);
+            chicken.transform.position = this.transform.position;
+            chickens.Remove(chicken);
+        }
     }
 
     private void Awake()
@@ -31,4 +45,5 @@ public class Counter : MonoBehaviour
     {
         chickens.Add(chicken);
     }
+
 }

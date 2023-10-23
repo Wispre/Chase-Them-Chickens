@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public PlayerCollect collect;
-    public Counter counter;
+    public Bag bag;
 
     private float speed = 7f;
     private float speedPenalty = 0.05f;
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         var speedPercentage = (originalSpeed * speedPenalty);
-        var modSpeed = originalSpeed - ( speedPercentage * counter.GetCount());
+        var modSpeed = originalSpeed - ( speedPercentage * bag.GetCount());
         var lessThanSlowestSpeed = modSpeed < speed - speed*(1 - speedPenalty);
 
         if (lessThanSlowestSpeed)

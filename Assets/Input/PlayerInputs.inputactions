@@ -15,9 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
+                    "name": "Collect",
                     "type": "Button",
                     "id": "f16e4c67-dbe9-4f42-bd8c-5109742fc594",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Release",
+                    "type": "Button",
+                    "id": "75f2872a-fcdd-470b-80a5-0b14e0d2aa46",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -87,7 +96,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Collect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5fea256-71d8-4ce3-9e82-8ef3a891f05d",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
