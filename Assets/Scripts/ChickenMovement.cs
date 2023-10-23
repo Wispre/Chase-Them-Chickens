@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -14,6 +13,21 @@ public class ChickenMovement : MonoBehaviour
     private float minWaitTime = 1f;
 
     private float timer = 0f;
+    private bool useNavMesh = true;
+
+    private Vector3 endTween;
+    private float distanceTween = 2f;
+    public void GoToHouse(Vector3 target)
+    {
+        useNavMesh = false;
+        endTween = target;
+
+        if (transform.position == endTween)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -25,7 +39,26 @@ public class ChickenMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (timer > 0f) 
+        if (useNavMesh)
+        {
+            NavMeshCounter();
+        }
+        else
+        {
+            transform.position = Vector3.MoveTowards(transform.position, endTween, distanceTween * Time.deltaTime);
+            transform.LookAt(endTween);
+
+            if (Vector3.Distance(transform.position, endTween) <= 1f)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+    }
+
+
+    private void NavMeshCounter()
+    {
+        if (timer > 0f)
         {
             timer -= Time.deltaTime;
         }
@@ -51,4 +84,6 @@ public class ChickenMovement : MonoBehaviour
     {
         timer = Random.Range(minWaitTime, maxWaitTime);
     }
+
+
 }
