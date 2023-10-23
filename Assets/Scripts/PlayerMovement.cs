@@ -56,8 +56,6 @@ public class PlayerMovement : MonoBehaviour
         {
             modSpeed = speed - speed * (1 - speedPenalty);
         }
-
-        print($"modSpeed {modSpeed}");
         return modSpeed;
     }
 
