@@ -53,8 +53,6 @@ public class Bag : MonoBehaviour
         if (other.tag == "ChickenHouse")
         {
             StartCoroutine(ReleaseChickens(other.transform.parent.position));
-
-            print("entered");
         }
     }
 
@@ -64,8 +62,6 @@ public class Bag : MonoBehaviour
         {
             StopAllCoroutines();
         }
-
-        print("exit");
     }
 
     IEnumerator ReleaseChickens(Vector3 target)

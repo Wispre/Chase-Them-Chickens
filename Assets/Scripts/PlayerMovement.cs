@@ -14,9 +14,6 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 7f;
     private float speedPenalty = 0.05f;
 
-    private float turnSmoothTime = 0.01f;
-    private float turnSmoothVelocity;
-
     private Rigidbody rb;
     private Vector3 movementInput;
     private Vector3 mousePos;

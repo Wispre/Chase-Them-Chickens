@@ -72,6 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe8b3a9bc373ed4b951e188e67e9245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnChickenReachedHome: {fileID: 11400000, guid: 0667eff9498123541be1c37920142770, type: 2}
 --- !u!135 &2102150165104290700
 SphereCollider:
   m_ObjectHideFlags: 0

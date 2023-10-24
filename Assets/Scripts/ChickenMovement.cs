@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class ChickenMovement : MonoBehaviour
 {
+    public GameEvent OnChickenReachedHome;
+
     private NavMeshAgent agent;
 
     private float maxDistance = 5f;
@@ -51,6 +53,7 @@ public class ChickenMovement : MonoBehaviour
             if (Vector3.Distance(transform.position, endTween) <= 1f)
             {
                 gameObject.SetActive(false);
+                OnChickenReachedHome.Raise();
             }
         }
     }
