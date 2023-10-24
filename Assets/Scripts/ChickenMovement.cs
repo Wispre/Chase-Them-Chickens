@@ -18,11 +18,12 @@ public class ChickenMovement : MonoBehaviour
     private bool useNavMesh = true;
 
     private Vector3 endTween;
-    private float distanceTween = 2f;
+    private float distanceTween = 5f;
     public void GoToHouse(Vector3 target)
     {
         useNavMesh = false;
         endTween = target;
+        agent.enabled = false;
 
         if (transform.position == endTween)
         {

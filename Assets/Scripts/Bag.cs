@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class Bag : MonoBehaviour
 {
+    public Transform Entrance;
+
     private PlayerCollect playerCollect;
     private List<GameObject> chickens = new List<GameObject>();
 
@@ -71,7 +73,7 @@ public class Bag : MonoBehaviour
             var currentChicken = chickens[0];
             currentChicken.SetActive(true);
             currentChicken.transform.position = transform.position;
-            currentChicken.GetComponent<ChickenMovement>().GoToHouse(target);
+            currentChicken.GetComponent<ChickenMovement>().GoToHouse(Entrance.position);
             chickens.Remove(currentChicken);
             yield return delay;
         }
