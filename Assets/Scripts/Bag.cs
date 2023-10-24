@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class Bag : MonoBehaviour
 {
     public Transform Entrance;
+    public Transform ThrowStart;
 
     private PlayerCollect playerCollect;
     private List<GameObject> chickens = new List<GameObject>();
@@ -72,11 +73,21 @@ public class Bag : MonoBehaviour
         {
             var currentChicken = chickens[0];
             currentChicken.SetActive(true);
-            currentChicken.transform.position = transform.position;
+            currentChicken.transform.position = ThrowStart.position;
+            GiveRandomRotation(currentChicken);
             currentChicken.GetComponent<ChickenMovement>().GoToHouse(Entrance.position);
             chickens.Remove(currentChicken);
             yield return delay;
         }
+    }
+
+    private void GiveRandomRotation(GameObject chicken)
+    {
+        var x = Random.Range(0f, 360f);
+        var y = Random.Range(0f, 360f);
+        var z = Random.Range(0f, 360f);
+
+        chicken.transform.rotation = Quaternion.Euler(x, y, z);
     }
 
 }

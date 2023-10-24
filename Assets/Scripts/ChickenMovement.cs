@@ -49,7 +49,6 @@ public class ChickenMovement : MonoBehaviour
         else
         {
             transform.position = Vector3.MoveTowards(transform.position, endTween, distanceTween * Time.deltaTime);
-            transform.LookAt(endTween);
 
             if (Vector3.Distance(transform.position, endTween) <= 1f)
             {
@@ -57,6 +56,15 @@ public class ChickenMovement : MonoBehaviour
                 OnChickenReachedHome.Raise();
             }
         }
+    }
+
+    private void GiveRandomRotation(GameObject chicken)
+    {
+        var x = Random.Range(0f, 360f);
+        var y = Random.Range(0f, 360f);
+        var z = Random.Range(0f, 360f);
+
+        chicken.transform.rotation = Quaternion.Euler(x, y, z);
     }
 
 
