@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public PlayerCollect collect;
     public Bag bag;
 
+    private Camera cam;
+
     private float speed = 7f;
     private float speedPenalty = 0.05f;
 
@@ -17,6 +19,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody rb;
     private Vector3 movementInput;
+    private Vector3 mousePos;
+    private Vector3 rotateDirection = Vector3.zero;
 
     private Coroutine Co_Slow;
 
@@ -26,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         collect = GetComponent<PlayerCollect>();
+        cam = Camera.main;
     }
 
     private void OnEnable()
@@ -65,6 +70,12 @@ public class PlayerMovement : MonoBehaviour
         movementInput.z = ctx.ReadValue<Vector2>().y;
     }
 
+    public void GetMousePos(InputAction.CallbackContext ctx)
+    {
+        mousePos.x = ctx.ReadValue<Vector2>().x;
+        mousePos.y = ctx.ReadValue<Vector2>().y;
+    }
+
     private void Move()
     {
         Vector3 MoveVector = movementInput * GetModifiedSpeed();
@@ -73,12 +84,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Rotate()
     {
-        if (movementInput.magnitude >= 0.1f)
+        Ray ray = cam.ScreenPointToRay(mousePos);
+
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
         {
-            float targetAngle = Mathf.Atan2(movementInput.x, movementInput.z) * Mathf.Rad2Deg;
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            rb.MoveRotation(Quaternion.Euler(0f, angle, 0f));
-        }   
+            rotateDirection.x = hit.point.x;
+            rotateDirection.z = hit.point.z;
+            transform.LookAt(rotateDirection);
+        } 
     }
     private void Update()
     {
