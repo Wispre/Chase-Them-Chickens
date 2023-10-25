@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +13,8 @@ public class PlayerCollect : MonoBehaviour
 
     public LayerMask targetMask;
     public LayerMask obstructionMask;
+
+    private List<GameObject> closeChickens = new List<GameObject>();
 
     public void Catch(InputAction.CallbackContext ctx)
     {
@@ -27,6 +30,8 @@ public class PlayerCollect : MonoBehaviour
 
         if (rangeChecks.Length == 0) return;
 
+        closeChickens.Clear();
+
         for (int i = 0; i < rangeChecks.Length; i++)
         {
             Transform target = rangeChecks[i].transform;
@@ -38,12 +43,34 @@ public class PlayerCollect : MonoBehaviour
 
                 if (!Physics.Raycast(transform.position, directionToTarget, distanceTotarget, obstructionMask))
                 {
-                    OnGrabChicken?.Invoke(rangeChecks[i].gameObject);
-                    rangeChecks[i].gameObject.SetActive(false);
+                    closeChickens.Add(rangeChecks[i].gameObject);
                 }
             }
         }
+        var chicken = GrabClosestChicken();
+        OnGrabChicken?.Invoke(chicken);
+        chicken.SetActive(false);
+    }
+
+    private GameObject GrabClosestChicken()
+    {
+        int index = 0;
+        float lastDistance;
+
+        lastDistance = Vector3.Distance(transform.position, closeChickens[0].transform.position);
+
+        for (int i = 1; i < closeChickens.Count; i++)
+        {
+            var currentDistance = Vector3.Distance(transform.position, closeChickens[i].transform.position);
 
 
+            if (currentDistance < lastDistance)
+            {
+                index = i;
+                lastDistance = currentDistance;
+            }
+        }
+
+        return closeChickens[index];
     }
 }

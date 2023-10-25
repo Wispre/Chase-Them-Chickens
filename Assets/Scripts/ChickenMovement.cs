@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -57,16 +55,6 @@ public class ChickenMovement : MonoBehaviour
             }
         }
     }
-
-    private void GiveRandomRotation(GameObject chicken)
-    {
-        var x = Random.Range(0f, 360f);
-        var y = Random.Range(0f, 360f);
-        var z = Random.Range(0f, 360f);
-
-        chicken.transform.rotation = Quaternion.Euler(x, y, z);
-    }
-
 
     private void NavMeshCounter()
     {

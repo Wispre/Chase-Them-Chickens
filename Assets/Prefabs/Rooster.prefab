@@ -260,6 +260,7 @@ GameObject:
   - component: {fileID: 765267852884797042}
   - component: {fileID: 6065880974585763221}
   - component: {fileID: 8294216001303157449}
+  - component: {fileID: 4538198848764822019}
   m_Layer: 12
   m_Name: Rooster
   m_TagString: Chicken
@@ -331,6 +332,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.92
   m_Center: {x: 0, y: 0.38, z: 0.07}
+--- !u!114 &4538198848764822019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4419450584869258359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66a869f49c64414aa9c7794608eb679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6436281882007002992
 GameObject:
   m_ObjectHideFlags: 0
