@@ -23,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool inGrabPenalty = false;
 
+    private bool isGrounded = true;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -102,11 +104,18 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (GroundCheck())
-        {
-            Move();
+        if (Pause.IsPaused) return;
+        isGrounded = GroundCheck();
+
+        if (!isGrounded) return;
             Rotate();
-        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (!isGrounded) return;
+        Move();
+
     }
 
     private bool GroundCheck()
