@@ -13,6 +13,9 @@ public class Rooster : MonoBehaviour
         Recover
     }
 
+    [Range(0,1)]
+    private float percentToRelease = 0.25f; 
+
     private NavMeshAgent agent;
     private float maxDistance = 5f;
 
@@ -27,6 +30,8 @@ public class Rooster : MonoBehaviour
 
     private float angerDuration = 1f;
     private float currentAngerDuration = 1f;
+
+    private Vector3 restingSpot;
 
     private void Awake()
     {
@@ -97,16 +102,35 @@ public class Rooster : MonoBehaviour
 
     private void Recover()
     {
-
+        restingSpot.y = 0f;
+        if(Vector3.Distance(transform.position, restingSpot) <= 0.1f)
+        {
+            state = State.Anger;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Player")
         {
-            //collision.collider.gameObject.GetComponent<PlayerMovement>().GetHit();
+            FindRestingSpot(collision.transform.position);
+            state = State.Recover;
+            PunishPlayer(collision.collider.gameObject);
         }
 
+    }
+
+    private void PunishPlayer(GameObject player)
+    {
+        player.transform.parent.GetComponent<PlayerMovement>().GetHit();
+        player.transform.parent.GetComponent<Bag>().ForceRelease(percentToRelease);
+    }
+
+    private void FindRestingSpot(Vector3 playerSpot)
+    {
+        var direction = (transform.position - playerSpot).normalized;
+        restingSpot = direction * 10;
+        agent.destination = restingSpot;
     }
 
     private void NavMeshCounter()

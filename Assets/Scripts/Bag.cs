@@ -31,6 +31,19 @@ public class Bag : MonoBehaviour
         }
     }
 
+    public void ForceRelease(float percentage)
+    {
+        var amountToRelease = chickens.Count * percentage;
+
+        for(int i = 0; i < amountToRelease; i++)
+        {
+            var chicken = chickens[0];
+            chicken.SetActive(true);
+            chicken.transform.position = this.transform.position;
+            chickens.Remove(chicken);
+        }
+    }
+
     private void Awake()
     {
         playerCollect = GetComponent<PlayerCollect>();

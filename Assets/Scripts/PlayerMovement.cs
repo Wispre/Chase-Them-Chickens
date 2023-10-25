@@ -42,7 +42,10 @@ public class PlayerMovement : MonoBehaviour
 
     public void GetHit()
     {
-        rb.AddForce(Vector3.up * 3f, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * 10f, ForceMode.Impulse);
+
+        rb.velocity = new Vector3(0f,rb.velocity.y,0f);
+
     }
 
     private float GetModifiedSpeed()
@@ -99,8 +102,26 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        Move();
-        Rotate();
+        if (GroundCheck())
+        {
+            Move();
+            Rotate();
+        }
+    }
+
+    private bool GroundCheck()
+    {
+        bool isGrounded;
+
+        if (Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down, 0.2f))
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+        return isGrounded;
     }
 
     private void SlowPlayer(GameObject chicken)
