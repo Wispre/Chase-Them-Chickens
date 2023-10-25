@@ -5,6 +5,9 @@ using UnityEngine.AI;
 
 public class Rooster : MonoBehaviour
 {
+    public AudioSource sfxSource;
+    public AudioClip PreparingToCharge;
+
     enum State
     {
         Idle,
@@ -32,6 +35,8 @@ public class Rooster : MonoBehaviour
     private float currentAngerDuration = 1f;
 
     private Vector3 restingSpot;
+
+    private bool hasNotScreamed = true;
 
     private void Awake()
     {
@@ -71,10 +76,17 @@ public class Rooster : MonoBehaviour
 
     private void Anger()
     {
+        if (hasNotScreamed)
+        {
+            sfxSource.PlayOneShot(PreparingToCharge);
+            hasNotScreamed = false;
+        }
+
         if (currentAngerDuration <= 0f)
         {
             currentAngerDuration = angerDuration;
             PrepareToCharge();
+            hasNotScreamed = true;
         }
         else
         {
