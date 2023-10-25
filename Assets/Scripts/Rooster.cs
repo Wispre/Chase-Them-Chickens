@@ -104,11 +104,7 @@ public class Rooster : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            Rigidbody rb;
-
-            collision.collider.transform.parent.TryGetComponent<Rigidbody>(out rb);
-            rb.AddForce(transform.forward * 5f, ForceMode.Impulse);
-            Debug.Log("HIT");
+            //collision.collider.gameObject.GetComponent<PlayerMovement>().GetHit();
         }
 
     }

@@ -23,8 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
     private bool inGrabPenalty = false;
 
-    private bool gotHit = false;
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -42,11 +40,9 @@ public class PlayerMovement : MonoBehaviour
         collect.OnGrabChicken -= SlowPlayer;
     }
 
-    public void GetHit(Vector3 PushDirection)
+    public void GetHit()
     {
-        gotHit = true;
-
-        rb.AddForce(PushDirection, ForceMode.Impulse);
+        rb.AddForce(Vector3.up * 3f, ForceMode.Impulse);
     }
 
     private float GetModifiedSpeed()
@@ -103,12 +99,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        if(rb.velocity.magnitude < 0.01f)
-        {
-            gotHit = false;
-        }
-
-        if (gotHit) return;
         Move();
         Rotate();
     }

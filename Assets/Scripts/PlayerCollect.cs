@@ -30,8 +30,6 @@ public class PlayerCollect : MonoBehaviour
 
         if (rangeChecks.Length == 0) return;
 
-        closeChickens.Clear();
-
         for (int i = 0; i < rangeChecks.Length; i++)
         {
             Transform target = rangeChecks[i].transform;
@@ -47,9 +45,14 @@ public class PlayerCollect : MonoBehaviour
                 }
             }
         }
-        var chicken = GrabClosestChicken();
-        OnGrabChicken?.Invoke(chicken);
-        chicken.SetActive(false);
+
+        if(closeChickens.Count > 0)
+        {
+            var chicken = GrabClosestChicken();
+            OnGrabChicken?.Invoke(chicken);
+            chicken.SetActive(false);
+            closeChickens.Clear();
+        }
     }
 
     private GameObject GrabClosestChicken()
@@ -62,7 +65,6 @@ public class PlayerCollect : MonoBehaviour
         for (int i = 1; i < closeChickens.Count; i++)
         {
             var currentDistance = Vector3.Distance(transform.position, closeChickens[i].transform.position);
-
 
             if (currentDistance < lastDistance)
             {
