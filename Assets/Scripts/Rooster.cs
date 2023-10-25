@@ -14,7 +14,7 @@ public class Rooster : MonoBehaviour
     }
 
     [Range(0,1)]
-    private float percentToRelease = 0.25f; 
+    private float percentToRelease = 1f; 
 
     private NavMeshAgent agent;
     private float maxDistance = 5f;
