@@ -5,6 +5,8 @@ public class ChickenMovement : MonoBehaviour
 {
     public GameEvent OnChickenReachedHome;
 
+    public Animator animator;
+
     private NavMeshAgent agent;
 
     private float maxDistance = 5f;
@@ -17,6 +19,8 @@ public class ChickenMovement : MonoBehaviour
 
     private Vector3 endTween;
     private float distanceTween = 5f;
+
+    private Vector3 target;
     public void GoToHouse(Vector3 target)
     {
         useNavMesh = false;
@@ -67,6 +71,15 @@ public class ChickenMovement : MonoBehaviour
             GetTarget();
             SetNewTimer();
         }
+
+        if (Vector3.Distance(transform.position, target) <= 0f)
+        {
+            animator.SetBool("isWalking", false);
+        }
+        else
+        {
+            animator.SetBool("isWalking", true);
+        }
     }
 
     private void GetTarget()
@@ -77,7 +90,9 @@ public class ChickenMovement : MonoBehaviour
         float getTargetX = Random.Range(currentPosX - maxDistance, currentPosX + maxDistance);
         float getTargetZ = Random.Range(currentPosZ - maxDistance, currentPosZ + maxDistance);
 
-        agent.destination = new Vector3(getTargetX, 0f, getTargetZ);
+        target = new Vector3(getTargetX, 0f, getTargetZ);
+
+        agent.destination = target;
     }
 
     private void SetNewTimer()
