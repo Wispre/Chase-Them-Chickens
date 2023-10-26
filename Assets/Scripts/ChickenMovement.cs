@@ -49,6 +49,8 @@ public class ChickenMovement : MonoBehaviour
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+
+        transform.rotation = Utils.GetRandomRotationY();
     }
 
     private void Start()
