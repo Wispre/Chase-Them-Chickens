@@ -72,7 +72,9 @@ public class ChickenMovement : MonoBehaviour
             SetNewTimer();
         }
 
-        if (Vector3.Distance(transform.position, target) <= 0f)
+        print(agent.velocity.magnitude);
+
+        if (agent.velocity.magnitude <= 0f)
         {
             animator.SetBool("isWalking", false);
         }
