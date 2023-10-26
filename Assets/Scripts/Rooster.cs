@@ -7,6 +7,7 @@ public class Rooster : MonoBehaviour
 {
     public AudioSource sfxSource;
     public AudioClip PreparingToCharge;
+    public Animator animator;
 
     enum State
     {
@@ -66,6 +67,15 @@ public class Rooster : MonoBehaviour
             case State.Recover:
                 Recover();
                 break;
+        }
+
+        if (agent.velocity.magnitude <= 0f)
+        {
+            animator.SetBool("isWalking", false);
+        }
+        else
+        {
+            animator.SetBool("isWalking", true);
         }
     }
 
