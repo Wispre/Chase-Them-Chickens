@@ -39,7 +39,8 @@ public class Bag : MonoBehaviour
         {
             var chicken = chickens[0];
             chicken.SetActive(true);
-            chicken.transform.position = this.transform.position;
+            chicken.transform.position = GetRandomSpotAroundPlayer(transform.position, 2f);
+            chicken.GetComponent<ChickenMovement>().InFear();
             chickens.Remove(chicken);
         }
     }
@@ -68,7 +69,7 @@ public class Bag : MonoBehaviour
     {
         if (other.tag == "ChickenHouse")
         {
-            StartCoroutine(ReleaseChickens(other.transform.parent.position));
+            StartCoroutine(ReleaseChickens());
         }
     }
 
@@ -80,7 +81,7 @@ public class Bag : MonoBehaviour
         }
     }
 
-    IEnumerator ReleaseChickens(Vector3 target)
+    IEnumerator ReleaseChickens()
     {
         while (chickens.Count > 0)
         {
@@ -96,11 +97,14 @@ public class Bag : MonoBehaviour
 
     private void GiveRandomRotation(GameObject chicken)
     {
-        var x = Random.Range(0f, 360f);
-        var y = Random.Range(0f, 360f);
-        var z = Random.Range(0f, 360f);
+        chicken.transform.rotation = Random.rotation;
+    }
 
-        chicken.transform.rotation = Quaternion.Euler(x, y, z);
+    private Vector3 GetRandomSpotAroundPlayer(Vector3 playerPos, float radius)
+    {
+        var spotInCircle = Random.insideUnitCircle.normalized * radius;
+
+        return new Vector3(spotInCircle.x, 0f, spotInCircle.y) + playerPos;
     }
 
 }

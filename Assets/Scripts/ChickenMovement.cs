@@ -8,6 +8,17 @@ public class ChickenMovement : MonoBehaviour
 
     public Animator animator;
 
+    enum State
+    {
+        casual,
+        fear,
+        droppedInCoop
+    }
+
+    private Coroutine Co_fear;
+
+    private State state = State.casual;
+
     private NavMeshAgent agent;
 
     private float maxDistance = 5f;
@@ -25,7 +36,7 @@ public class ChickenMovement : MonoBehaviour
     private Vector3 target;
     public void GoToHouse(Vector3 target)
     {
-        useNavMesh = false;
+        state = State.droppedInCoop;
         endTween = target;
         agent.enabled = false;
 
@@ -48,19 +59,44 @@ public class ChickenMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (useNavMesh)
+        switch (state)
         {
-            NavMeshCounter();
-        }
-        else
-        {
-            transform.position = Vector3.MoveTowards(transform.position, endTween, distanceTween * Time.deltaTime);
+            case State.casual:
+                NavMeshCounter();
+                break;
 
-            if (Vector3.Distance(transform.position, endTween) <= 1f)
-            {
-                gameObject.SetActive(false);
-                OnChickenReachedHome.Raise();
-            }
+            case State.fear:
+                InFear();
+                break;
+
+            case State.droppedInCoop:
+                CoopDeposit();
+                break;
+        }
+    }
+
+    public void InFear()
+    {
+        if (Co_fear == null) return;
+
+        state = State.fear;
+        Co_fear = StartCoroutine(ScareChicken());
+    }
+
+    IEnumerator ScareChicken()
+    {
+        yield return null;
+        Co_fear = null;
+    }
+
+    private void CoopDeposit()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, endTween, distanceTween * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, endTween) <= 1f)
+        {
+            gameObject.SetActive(false);
+            OnChickenReachedHome.Raise();
         }
     }
 
@@ -113,6 +149,4 @@ public class ChickenMovement : MonoBehaviour
     {
         timer = Random.Range(minWaitTime, maxWaitTime);
     }
-
-
 }
