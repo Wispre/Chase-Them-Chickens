@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,6 +20,7 @@ public class ChickenMovement : MonoBehaviour
 
     private Vector3 endTween;
     private float distanceTween = 5f;
+    private WaitForSeconds randomDelay = new WaitForSeconds(0.5f);
 
     private Vector3 target;
     public void GoToHouse(Vector3 target)
@@ -41,6 +43,8 @@ public class ChickenMovement : MonoBehaviour
     private void Start()
     {
         SetNewTimer();
+
+        StartCoroutine(RandomUpdater());
     }
     private void Update()
     {
@@ -80,6 +84,16 @@ public class ChickenMovement : MonoBehaviour
         {
             animator.SetBool("isWalking", true);
         }
+    }
+
+    IEnumerator RandomUpdater()
+    {
+        while (true)
+        {
+            yield return randomDelay;
+            animator.SetInteger("random", Random.Range(0, 101));
+        }
+       
     }
 
     private void GetTarget()
