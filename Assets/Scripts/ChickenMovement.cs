@@ -72,8 +72,6 @@ public class ChickenMovement : MonoBehaviour
             SetNewTimer();
         }
 
-        print(agent.velocity.magnitude);
-
         if (agent.velocity.magnitude <= 0f)
         {
             animator.SetBool("isWalking", false);
