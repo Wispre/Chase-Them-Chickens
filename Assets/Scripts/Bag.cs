@@ -40,7 +40,7 @@ public class Bag : MonoBehaviour
             var chicken = chickens[0];
             chicken.SetActive(true);
             chicken.transform.position = GetRandomSpotAroundPlayer(transform.position, 2f);
-            chicken.GetComponent<ChickenMovement>().InFear();
+            chicken.GetComponent<ChickenMovement>().Scare(transform.position);
             chickens.Remove(chicken);
         }
     }

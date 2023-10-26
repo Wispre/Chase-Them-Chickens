@@ -15,8 +15,6 @@ public class ChickenMovement : MonoBehaviour
         droppedInCoop
     }
 
-    private Coroutine Co_fear;
-
     private State state = State.casual;
 
     private NavMeshAgent agent;
@@ -27,13 +25,13 @@ public class ChickenMovement : MonoBehaviour
     private float minWaitTime = 1f;
 
     private float timer = 0f;
-    private bool useNavMesh = true;
 
     private Vector3 endTween;
     private float distanceTween = 5f;
     private WaitForSeconds randomDelay = new WaitForSeconds(0.5f);
 
     private Vector3 target;
+    private Vector3 scaryTarget;
     public void GoToHouse(Vector3 target)
     {
         state = State.droppedInCoop;
@@ -77,19 +75,23 @@ public class ChickenMovement : MonoBehaviour
         }
     }
 
+    public void Scare(Vector3 scaryTarget)
+    {
+        state = State.fear;
+        this.scaryTarget = scaryTarget;
+        agent.destination = (transform.position - scaryTarget) * 5;
+        animator.SetBool("isWalking", true);
+        animator.SetTrigger("trigScared");
+    }
+
     public void InFear()
     {
-        if (Co_fear == null) return;
-
-        state = State.fear;
-        Co_fear = StartCoroutine(ScareChicken());
+        if (agent.velocity.magnitude <= 0)
+        {
+            state = State.casual;
+        }
     }
 
-    IEnumerator ScareChicken()
-    {
-        yield return null;
-        Co_fear = null;
-    }
 
     private void CoopDeposit()
     {
