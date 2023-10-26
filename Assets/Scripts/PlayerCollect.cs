@@ -11,9 +11,11 @@ public class PlayerCollect : MonoBehaviour
     [Range(0,360)]
     public float angle;
 
+
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
+    private float fearRadius = 10f;
     private List<GameObject> closeChickens = new List<GameObject>();
 
     public void Catch(InputAction.CallbackContext ctx)
@@ -29,6 +31,8 @@ public class PlayerCollect : MonoBehaviour
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
 
         if (rangeChecks.Length == 0) return;
+
+        AoeFear();
 
         for (int i = 0; i < rangeChecks.Length; i++)
         {
@@ -74,5 +78,19 @@ public class PlayerCollect : MonoBehaviour
         }
 
         return closeChickens[index];
+    }
+
+    private void AoeFear()
+    {
+        Collider[] rangeChecks = Physics.OverlapSphere(transform.position, fearRadius, targetMask);
+
+        if (rangeChecks.Length == 0) return;
+
+        var playerPos = transform.position;
+
+        foreach (Collider col in rangeChecks)
+        {
+            col.GetComponent<ChickenMovement>().Scare(playerPos);
+        }
     }
 }

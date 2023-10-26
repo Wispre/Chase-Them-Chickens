@@ -84,7 +84,7 @@ public class ChickenMovement : MonoBehaviour
         animator.SetTrigger("trigScared");
     }
 
-    public void InFear()
+    private void InFear()
     {
         if (agent.velocity.magnitude <= 0)
         {
