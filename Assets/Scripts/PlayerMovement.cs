@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public LayerMask groundLayer;
+
     public PlayerCollect collect;
     public Bag bag;
 
@@ -95,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
 
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity ,groundLayer))
         {
             rotateDirection.x = hit.point.x;
             rotateDirection.z = hit.point.z;

@@ -90,6 +90,7 @@ public class Rooster : MonoBehaviour
         {
             sfxSource.PlayOneShot(PreparingToCharge);
             hasNotScreamed = false;
+            animator.SetTrigger("trigScared");
         }
 
         if (currentAngerDuration <= 0f)
