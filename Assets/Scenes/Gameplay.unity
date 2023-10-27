@@ -166,7 +166,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7113881}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3ad8d0de8caeba34a9279c630efaf84a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -178,8 +178,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 30, y: 15, z: 1}
-  m_Center: {x: -0, y: 3.076968, z: 0}
+  m_Size: {x: 48.302197, y: 15, z: 6.919457}
+  m_Center: {x: -2.9803095, y: 3.0769682, z: 2.9597292}
 --- !u!23 &7113884
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1095,7 +1095,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193947641}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3ad8d0de8caeba34a9279c630efaf84a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1107,8 +1107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 45, y: 15, z: 1}
-  m_Center: {x: 0, y: 2.3932068, z: 0}
+  m_Size: {x: 55.184296, y: 15, z: 7.1554155}
+  m_Center: {x: -0.2763052, y: 2.3932066, z: -3.0777078}
 --- !u!23 &193947644
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1388,7 +1388,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255394524}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3ad8d0de8caeba34a9279c630efaf84a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1400,8 +1400,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 45, y: 15, z: 1}
-  m_Center: {x: 0, y: 2.3137147, z: 0}
+  m_Size: {x: 63.43927, y: 15, z: 8.616132}
+  m_Center: {x: -0.81142807, y: 2.313715, z: 3.808066}
 --- !u!23 &255394527
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9341,7 +9341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831266310}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
+  m_LocalRotation: {x: 0.4232659, y: 0.000000027799787, z: -0.000000012987451, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10509,7 +10509,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994308112}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 3ad8d0de8caeba34a9279c630efaf84a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -10521,8 +10521,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 15, z: 30}
-  m_Center: {x: 0, y: 3.5187728, z: 0}
+  m_Size: {x: 6.679407, y: 15, z: 39.6269}
+  m_Center: {x: -2.8397036, y: 3.518773, z: -0.4062338}
 --- !u!23 &994308115
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14116,7 +14116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
+  m_LocalRotation: {x: 0.4232659, y: 0.000000027799787, z: -0.000000012987451, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17091,6 +17091,18 @@ PrefabInstance:
       propertyPath: dustParticles
       value: 
       objectReference: {fileID: 1664179513}
+    - target: {fileID: 8294216001303157449, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
+      propertyPath: m_Radius
+      value: 0.7748963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294216001303157449, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
+      propertyPath: m_Center.x
+      value: -0.08281499
+      objectReference: {fileID: 0}
+    - target: {fileID: 8294216001303157449, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
+      propertyPath: m_Center.y
+      value: 0.47999996
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
