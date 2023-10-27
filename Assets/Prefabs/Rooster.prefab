@@ -93,8 +93,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 0}
   PreparingToCharge: {fileID: 8300000, guid: 1a62c255b3ebc0e418d7605f6f18bb4e, type: 3}
-  animator: {fileID: 0}
-  dustParticles: {fileID: 0}
+  animator: {fileID: 5259203429536945072}
+  dustParticles: {fileID: 4320584462942034588}
 --- !u!1001 &6932561439747917176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -152,6 +152,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccb313c3cb69f5f4e987099c6f0f7dd1, type: 3}
+--- !u!198 &4320584462942034588 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6611472593067548644, guid: ccb313c3cb69f5f4e987099c6f0f7dd1, type: 3}
+  m_PrefabInstance: {fileID: 6932561439747917176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6380333523038128984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4088732375822536224, guid: ccb313c3cb69f5f4e987099c6f0f7dd1, type: 3}
