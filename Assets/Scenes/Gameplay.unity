@@ -9341,7 +9341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831266310}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
+  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13437,6 +13437,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 1661322997}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1664179513 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4320584462942034588, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
+  m_PrefabInstance: {fileID: 5797246067046073459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1665090696
 GameObject:
   m_ObjectHideFlags: 0
@@ -14111,7 +14116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
+  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17085,7 +17090,7 @@ PrefabInstance:
     - target: {fileID: 4538198848764822019, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: dustParticles
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1664179513}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
