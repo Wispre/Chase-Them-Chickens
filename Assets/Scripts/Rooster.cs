@@ -8,6 +8,7 @@ public class Rooster : MonoBehaviour
     public AudioSource sfxSource;
     public AudioClip PreparingToCharge;
     public Animator animator;
+    public ParticleSystem dustParticles;
 
     enum State
     {
@@ -38,6 +39,7 @@ public class Rooster : MonoBehaviour
     private Vector3 restingSpot;
 
     private bool hasNotScreamed = true;
+    private bool isCharging = false;
 
     private void Awake()
     {
@@ -72,10 +74,21 @@ public class Rooster : MonoBehaviour
         if (agent.velocity.magnitude <= 0f)
         {
             animator.SetBool("isWalking", false);
+            if (!isCharging)
+            {
+                StopDustParticles();
+            }
+
         }
         else
         {
             animator.SetBool("isWalking", true);
+
+            if (isCharging)
+            {
+                PlayDustParticles();
+            }
+            
         }
     }
 
@@ -115,13 +128,32 @@ public class Rooster : MonoBehaviour
     }
     private void Charge()
     {
+        isCharging = true;
         agent.destination = target;
 
         if (Vector3.Distance(transform.position, target) <= 1)
         {
             state = State.Anger;
+            isCharging = false;
         }
     }
+
+    private void PlayDustParticles()
+    {
+        if (!dustParticles.isEmitting)
+        {
+            dustParticles.Play();
+        }
+    }
+
+    private void StopDustParticles()
+    {
+        if(dustParticles.isEmitting)
+        {
+            dustParticles.Stop();
+        }
+    }
+
 
     private void Recover()
     {
