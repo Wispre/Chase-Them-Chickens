@@ -7191,10 +7191,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 623537885750995002, guid: b546562ce5faab745b56f770af49c24a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3457364409876233775, guid: b546562ce5faab745b56f770af49c24a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.49916124
@@ -10149,10 +10145,6 @@ PrefabInstance:
     - target: {fileID: 4538198848764822019, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: dustParticles
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8622449710335392882, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.178
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
