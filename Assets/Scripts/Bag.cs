@@ -25,6 +25,7 @@ public class Bag : MonoBehaviour
             if (chickens.Count <= 0) { return; }
 
             var chicken = chickens[0];
+            chicken.GetComponent<ChickenMovement>().isCarried = false;
 
             chicken.SetActive(true);
             chicken.GetComponent<NavMeshAgent>().Warp(this.transform.position);
@@ -42,7 +43,11 @@ public class Bag : MonoBehaviour
             var chicken = chickens[0];
             chicken.SetActive(true);
             chicken.GetComponent<NavMeshAgent>().Warp(GetRandomSpotAroundPlayer(transform.position, 2f));
-            chicken.GetComponent<ChickenMovement>().Scare(transform.position);
+
+            var movementScript = chicken.GetComponent<ChickenMovement>();
+            movementScript.Scare(transform.position);
+            movementScript.isCarried = false;
+
             chickens.Remove(chicken);
         }
     }
@@ -65,6 +70,7 @@ public class Bag : MonoBehaviour
     private void Increase(GameObject chicken)
     {
         chickens.Add(chicken);
+        chicken.GetComponent<ChickenMovement>().isCarried = true;
     }
 
     private void OnTriggerEnter(Collider other)

@@ -17,11 +17,39 @@ public class ChickenSpawner : MonoBehaviour
     {
         while (true)
         {
-            var chicken = Instantiate(ChickenPrefab, Vector3.zero, Utils.GetRandomRotationY());
-            chicken.Warp(GrabSpawnPoint());
-            chicken.transform.parent = Parent.transform;
+            var chicken = GrabInactiveChicken();
+
+            if(chicken != null)
+            {
+                chicken.gameObject.SetActive(true);
+                chicken.Warp(GrabSpawnPoint());
+                chicken.transform.rotation = Utils.GetRandomRotationY();
+                chicken.transform.parent = Parent.transform;
+            }
+            else
+            {
+                chicken = Instantiate(ChickenPrefab, Vector3.zero, Utils.GetRandomRotationY());
+                chicken.Warp(GrabSpawnPoint());
+                chicken.transform.parent = Parent.transform;
+            }
+
             yield return delayPerSpawn;
         }
+    }
+
+    private NavMeshAgent GrabInactiveChicken()
+    {
+        for (int i = 0; i < Parent.transform.childCount; i++)
+        {
+            var child = Parent.transform.GetChild(i).gameObject;
+
+            if (!child.activeInHierarchy && !child.GetComponent<ChickenMovement>().isCarried)
+            {
+                return child.GetComponent<NavMeshAgent>();
+            }
+        }
+
+        return null;
     }
 
     private Vector3 GrabSpawnPoint()

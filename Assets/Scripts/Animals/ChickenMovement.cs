@@ -15,6 +15,8 @@ public class ChickenMovement : MonoBehaviour
         droppedInCoop
     }
 
+    public bool isCarried;
+
     public State state { get; private set; } = State.casual;
 
     private NavMeshAgent agent;
@@ -37,11 +39,12 @@ public class ChickenMovement : MonoBehaviour
         state = State.droppedInCoop;
         endTween = target;
         agent.enabled = false;
+    }
 
-        if (transform.position == endTween)
-        {
-            gameObject.SetActive(false);
-        }
+    void OnEnable()
+    {
+        state = State.casual;
+        agent.enabled = true;
     }
 
     private void Awake()
@@ -101,6 +104,7 @@ public class ChickenMovement : MonoBehaviour
         {
             gameObject.SetActive(false);
             OnChickenReachedHome.Raise();
+            isCarried = false;
         }
     }
 

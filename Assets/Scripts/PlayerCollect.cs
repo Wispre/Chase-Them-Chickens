@@ -28,6 +28,8 @@ public class PlayerCollect : MonoBehaviour
 
     private void LookForChicken()
     {
+        closeChickens.Clear();
+
         Collider[] rangeChecks = Physics.OverlapSphere(transform.position, radius, targetMask);
 
         if (rangeChecks.Length == 0) return;
