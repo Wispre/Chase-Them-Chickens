@@ -6,8 +6,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameEvent OnHit;
-
     public LayerMask groundLayer;
 
     public PlayerCollect collect;
@@ -52,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = new Vector3(0f,rb.velocity.y,0f);
 
-        OnHit.Raise();
     }
 
     private float GetModifiedSpeed()
