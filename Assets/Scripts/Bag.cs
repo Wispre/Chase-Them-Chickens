@@ -27,6 +27,7 @@ public class Bag : MonoBehaviour
 
             chicken.SetActive(true);
             chicken.transform.position = this.transform.position;
+            chicken.transform.rotation = Utils.GetRandomRotationY();
             chickens.Remove(chicken);
         }
     }

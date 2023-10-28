@@ -9035,7 +9035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831266310}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.00000001943308, z: 0.000000009078709, w: 0.9060055}
+  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13758,7 +13758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.00000001943308, z: 0.000000009078709, w: 0.9060055}
+  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16735,11 +16735,11 @@ PrefabInstance:
       objectReference: {fileID: 1664179513}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_Speed
-      value: 10
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_Height
-      value: 2
+      value: 1.19
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_AgentTypeID
@@ -16747,7 +16747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_Acceleration
-      value: 80
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_AngularSpeed
@@ -16755,7 +16755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_StoppingDistance
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6065880974585763221, guid: d2f7259b5d10722458a721549bd17b57, type: 3}
       propertyPath: m_ObstacleAvoidanceType
