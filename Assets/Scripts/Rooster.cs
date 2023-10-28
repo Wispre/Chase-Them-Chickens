@@ -41,13 +41,16 @@ public class Rooster : MonoBehaviour
     private bool hasNotScreamed = true;
     private bool isCharging = false;
 
+    private Coroutine Co_Scream;
+    private WaitForSeconds screamCD = new WaitForSeconds(20);
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         target = player.position;
 
-        state = State.Anger;
+        state = State.Idle;
     }
 
     private void Update()
@@ -101,7 +104,7 @@ public class Rooster : MonoBehaviour
     {
         if (hasNotScreamed)
         {
-            sfxSource.PlayOneShot(PreparingToCharge);
+            Co_Scream = StartCoroutine(ScreamCooldown());
             hasNotScreamed = false;
             animator.SetTrigger("trigScared");
         }
@@ -110,7 +113,6 @@ public class Rooster : MonoBehaviour
         {
             currentAngerDuration = angerDuration;
             PrepareToCharge();
-            hasNotScreamed = true;
         }
         else
         {
@@ -119,6 +121,16 @@ public class Rooster : MonoBehaviour
             agent.speed = 10f;
             agent.acceleration = 80f;
         }
+    }
+
+    IEnumerator ScreamCooldown()
+    {
+        sfxSource.PlayOneShot(PreparingToCharge);
+
+        yield return screamCD;
+
+        hasNotScreamed = true;
+        Co_Scream = null;
     }
 
     private void PrepareToCharge()
