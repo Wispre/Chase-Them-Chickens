@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class Bag : MonoBehaviour
@@ -26,7 +27,7 @@ public class Bag : MonoBehaviour
             var chicken = chickens[0];
 
             chicken.SetActive(true);
-            chicken.transform.position = this.transform.position;
+            chicken.GetComponent<NavMeshAgent>().Warp(this.transform.position);
             chicken.transform.rotation = Utils.GetRandomRotationY();
             chickens.Remove(chicken);
         }
@@ -40,7 +41,7 @@ public class Bag : MonoBehaviour
         {
             var chicken = chickens[0];
             chicken.SetActive(true);
-            chicken.transform.position = GetRandomSpotAroundPlayer(transform.position, 2f);
+            chicken.GetComponent<NavMeshAgent>().Warp(GetRandomSpotAroundPlayer(transform.position, 2f));
             chicken.GetComponent<ChickenMovement>().Scare(transform.position);
             chickens.Remove(chicken);
         }
