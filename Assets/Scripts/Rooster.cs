@@ -116,7 +116,8 @@ public class Rooster : MonoBehaviour
         {
             currentAngerDuration -= Time.deltaTime;
             transform.LookAt(player);
-            //agent.speed = 20f;
+            agent.speed = 10f;
+            agent.acceleration = 80f;
         }
     }
 
