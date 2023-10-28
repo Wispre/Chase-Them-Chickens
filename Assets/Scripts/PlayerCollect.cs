@@ -90,7 +90,12 @@ public class PlayerCollect : MonoBehaviour
 
         foreach (Collider col in rangeChecks)
         {
-            col.GetComponent<ChickenMovement>().Scare(playerPos);
+            ChickenMovement chicken = col.GetComponent<ChickenMovement>();
+
+            if(chicken.state != ChickenMovement.State.droppedInCoop)
+            {
+                col.GetComponent<ChickenMovement>().Scare(playerPos);
+            }
         }
     }
 }

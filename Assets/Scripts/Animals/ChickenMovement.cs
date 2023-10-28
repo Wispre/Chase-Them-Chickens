@@ -8,14 +8,14 @@ public class ChickenMovement : MonoBehaviour
 
     public Animator animator;
 
-    enum State
+    public enum State
     {
         casual,
         fear,
         droppedInCoop
     }
 
-    private State state = State.casual;
+    public State state { get; private set; } = State.casual;
 
     private NavMeshAgent agent;
 
