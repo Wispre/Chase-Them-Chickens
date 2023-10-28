@@ -1,36 +1,47 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource Background;
-    public AudioSource Sfx;
+    public AudioMixer mixer;
 
     public Slider BackgroundSlider;
     public Slider Sfx_Slider;
 
-    public const string BACKGROUND = "Background";
-    public const string SFX = "SFX";
+    public const string MIXER_BACKGROUND_MUSIC = "BackgroudVolume";
+    public const string MIXER_SFX = "SfxVolume";
 
     private void Awake()
     {
-        SetSavedVolumeLevels();
-        BackgroundSlider.value = Background.volume;
-        Sfx_Slider.value = Sfx.volume;
+        LoadVolume();
+
+        BackgroundSlider.value = PlayerPrefs.GetFloat(MIXER_BACKGROUND_MUSIC, 1f);
+        Sfx_Slider.value = PlayerPrefs.GetFloat (MIXER_SFX, 1f);
     }
 
-    public void SaveVolumeLevels()
+    private void OnDisable()
     {
-        PlayerPrefs.SetFloat(BACKGROUND, Background.volume);
-        PlayerPrefs.SetFloat(SFX, Sfx.volume);
+        PlayerPrefs.SetFloat(MIXER_BACKGROUND_MUSIC, BackgroundSlider.value);
+        PlayerPrefs.SetFloat(MIXER_SFX, Sfx_Slider.value);
     }
 
-    private void SetSavedVolumeLevels()
+    public void SetBackgroundMusicVolume(float value)
     {
-        if (PlayerPrefs.HasKey(BACKGROUND) && PlayerPrefs.HasKey(SFX))
-        {
-            Background.volume = PlayerPrefs.GetFloat(BACKGROUND);
-            Sfx.volume = PlayerPrefs.GetFloat(SFX);
-        }
+        mixer.SetFloat(MIXER_BACKGROUND_MUSIC, Mathf.Log10(value) * 20f);
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        mixer.SetFloat(MIXER_SFX, Mathf.Log10(value) * 20f);
+    }
+
+    private void LoadVolume()
+    {
+        float backgroundMusicVolume = PlayerPrefs.GetFloat(MIXER_BACKGROUND_MUSIC, 1f);
+        float sfxVolume = PlayerPrefs.GetFloat(MIXER_SFX, 1f); ;
+
+        mixer.SetFloat(MIXER_BACKGROUND_MUSIC, Mathf.Log10(backgroundMusicVolume) * 20f);
+        mixer.SetFloat(MIXER_SFX, Mathf.Log10(sfxVolume) * 20f);
     }
 }
