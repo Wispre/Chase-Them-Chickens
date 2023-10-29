@@ -5,6 +5,7 @@ using UnityEngine.AI;
 public class ChickenMovement : MonoBehaviour
 {
     public GameEvent OnChickenReachedHome;
+    public GameEvent OnChickenDeposit;
 
     public Animator animator;
 
@@ -105,6 +106,7 @@ public class ChickenMovement : MonoBehaviour
             gameObject.SetActive(false);
             OnChickenReachedHome.Raise();
             isCarried = false;
+            OnChickenDeposit.Raise();
         }
     }
 

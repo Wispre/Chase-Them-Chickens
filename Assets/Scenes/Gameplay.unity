@@ -4604,7 +4604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831266310}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.00000001943308, z: 0.000000009078709, w: 0.9060055}
+  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6861,6 +6861,7 @@ GameObject:
   - component: {fileID: 1198001885}
   - component: {fileID: 1198001886}
   - component: {fileID: 1198001887}
+  - component: {fileID: 1198001888}
   m_Layer: 0
   m_Name: Coop
   m_TagString: ChickenHouse
@@ -6899,7 +6900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c9ec6ce02ea4943a0a115160797158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particles: {fileID: 360668809}
+  Particles: {fileID: 360668809}
+  Audio: {fileID: 1665808320}
+  DepositClip: {fileID: 8300000, guid: 127eca07dbc04ae4d8fcf8176d8d1e3d, type: 3}
 --- !u!114 &1198001887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6919,6 +6922,34 @@ MonoBehaviour:
       - m_Target: {fileID: 1198001886}
         m_TargetAssemblyTypeName: ChickenHouse, Assembly-CSharp
         m_MethodName: ActivateParticleBurst
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1198001888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198001884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20d86df764d65e4c9fda526fa5fb156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 333e77f0c69afb84eb0213af0b9a45d4, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1198001886}
+        m_TargetAssemblyTypeName: ChickenHouse, Assembly-CSharp
+        m_MethodName: PlayDepositSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9947,7 +9978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.00000001943308, z: 0.000000009078709, w: 0.9060055}
+  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
   m_LocalPosition: {x: -2.06, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

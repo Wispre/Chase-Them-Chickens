@@ -71,7 +71,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnChickenReachedHome: {fileID: 11400000, guid: 0667eff9498123541be1c37920142770, type: 2}
+  OnChickenDeposit: {fileID: 11400000, guid: 333e77f0c69afb84eb0213af0b9a45d4, type: 2}
   animator: {fileID: 3690091699857595476}
+  isCarried: 0
 --- !u!135 &2102150165104290700
 SphereCollider:
   m_ObjectHideFlags: 0
