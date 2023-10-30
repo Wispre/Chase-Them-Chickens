@@ -168,7 +168,7 @@ public class Rooster : MonoBehaviour
     private void Recover()
     {
         restingSpot.y = 0f;
-        if(Vector3.Distance(transform.position, restingSpot) <= 0.1f)
+        if(agent.velocity.magnitude <= 0)
         {
             state = State.Anger;
         }
