@@ -31,7 +31,12 @@ public class Bag : MonoBehaviour
 
             chicken.SetActive(true);
             chicken.GetComponent<NavMeshAgent>().Warp(this.transform.position);
+
             chicken.transform.rotation = Utils.GetRandomRotationY();
+            var movementScript = chicken.GetComponent<ChickenMovement>();
+            movementScript.ReleaseScare(transform.position);
+            movementScript.isCarried = false;
+
             chickens.Remove(chicken);
             OnChickenReleased.Raise();
         }

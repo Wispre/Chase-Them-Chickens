@@ -86,6 +86,19 @@ public class ChickenMovement : MonoBehaviour
         agent.destination = (transform.position - scaryTarget) * 5;
         animator.SetTrigger("trigScared");
         animator.SetBool("isWalking", true);
+    }
+
+    public void ReleaseScare(Vector3 scaryTarget)
+    {
+        state = State.fear;
+        this.scaryTarget = scaryTarget;
+
+        var randomradius = Random.Range(5f,10f);
+
+        Vector3 spot = Utils.GetPointAroundNoY(this.scaryTarget, randomradius);
+        agent.destination = spot;
+        animator.SetTrigger("trigScared");
+        animator.SetBool("isWalking", true);
         animator.Play("Armature|Scared");
     }
 
