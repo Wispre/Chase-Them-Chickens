@@ -84,8 +84,9 @@ public class ChickenMovement : MonoBehaviour
         state = State.fear;
         this.scaryTarget = scaryTarget;
         agent.destination = (transform.position - scaryTarget) * 5;
-        animator.SetBool("isWalking", true);
         animator.SetTrigger("trigScared");
+        animator.SetBool("isWalking", true);
+        animator.Play("Armature|Scared");
     }
 
     private void InFear()
