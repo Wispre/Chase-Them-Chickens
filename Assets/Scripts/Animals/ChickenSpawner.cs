@@ -65,7 +65,7 @@ public class ChickenSpawner : MonoBehaviour
         return null;
     }
 
-    private Vector3 GrabSpawnPoint()
+    private Vector3 GrabSpawnPoint2()
     {
         var x = Random.Range(-19f, 25f);
         var z = Random.Range(-11f,13f);
@@ -73,18 +73,16 @@ public class ChickenSpawner : MonoBehaviour
         return new Vector3(x, 0f, z);
     }
 
-    private Vector3 GrabSpawnPoint2()
+    private Vector3 GrabSpawnPoint()
     {
-        var spaceLeft = landLeft - cameraLeft - Mathf.Abs(player.position.x);
-        var spaceRight = cameraRight - landRight - Mathf.Abs(player.position.x);
-        var spaceUp = landUp - cameraUp - Mathf.Abs(player.position.z);
-        var spaceDown = cameraDown - landDown - Mathf.Abs(player.position.z);
+        var spaceLeft = landLeft - cameraLeft + player.position.x;
+        var spaceRight = landRight - cameraRight - player.position.x;
+        var spaceUp = landUp - cameraUp - player.position.z;
+        var spaceDown = landDown - cameraDown + player.position.z;
 
-        print(spaceLeft);
-
-        bool isLeftValid = spaceLeft >= 0;
+        bool isLeftValid = spaceLeft > 0;
         bool isRightValid = spaceRight > 0;
-        bool isUpValid = spaceUp >= 0;
+        bool isUpValid = spaceUp > 0;
         bool isDownValid = spaceDown > 0;
 
         var xMin = 0f;
@@ -95,47 +93,42 @@ public class ChickenSpawner : MonoBehaviour
         if (isLeftValid)
         {
             xMin = spaceLeft;
-
-            print($"left: {isLeftValid}");
         }
 
         if (isRightValid)
         {
             xMax = spaceRight;
-            print($"right: {isRightValid}");
         }
 
         if (isUpValid)
         {
             zMax = spaceUp;
-            print($"up: {isUpValid}");
         }
 
         if(isDownValid)
         {
             zMin = spaceDown;
-            print($"down: {isDownValid}");
         }
 
-        var x = Random.Range(xMin, xMax);
-        var z = Random.Range(zMin, zMax);
+        var x = Random.Range(-xMin, xMax);
+        var z = Random.Range(-zMin, zMax);
 
         if (isLeftValid)
         {
-            x -= cameraLeft;
+            x -= cameraLeft - player.position.x;
         }
         else if (isRightValid)
         {
-            x += cameraRight;
+            x += cameraRight + player.position.x;
         }
 
         if (isUpValid)
         {
-            z += cameraUp;
+            z += cameraUp + player.position.z;
         }
         else if(isDownValid)
         {
-            z -= cameraDown;
+            z -= cameraDown - player.position.z;
         }
 
         //print($"{x} 0 {z}");
