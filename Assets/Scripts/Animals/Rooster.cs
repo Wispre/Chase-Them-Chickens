@@ -44,6 +44,17 @@ public class Rooster : MonoBehaviour
     private Coroutine Co_Scream;
     private WaitForSeconds screamCD = new WaitForSeconds(20);
 
+    private bool roosterNotAngered = true;
+
+    public void AngerRooster()
+    {
+        if (roosterNotAngered && Vector3.Distance(player.transform.position, transform.position) <= 6)
+        {
+            state = State.Anger;
+            roosterNotAngered = false;
+        }
+    }
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -112,7 +123,7 @@ public class Rooster : MonoBehaviour
             currentAngerDuration = angerDuration;
             PrepareToCharge();
         }
-        else
+        else if(agent.velocity.magnitude <= 0)
         {
             currentAngerDuration -= Time.deltaTime;
             transform.LookAt(player);
@@ -141,7 +152,7 @@ public class Rooster : MonoBehaviour
         isCharging = true;
         agent.destination = target;
 
-        if (Vector3.Distance(transform.position, target) <= 1)
+        if (agent.velocity.magnitude <= 0)
         {
             state = State.Anger;
             isCharging = false;
