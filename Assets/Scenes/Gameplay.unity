@@ -4418,7 +4418,6 @@ GameObject:
   - component: {fileID: 747707523}
   - component: {fileID: 747707526}
   - component: {fileID: 747707525}
-  - component: {fileID: 747707524}
   m_Layer: 0
   m_Name: ChickenSpawner
   m_TagString: Untagged
@@ -4454,37 +4453,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChickenPrefab: {fileID: 6329526188038283824, guid: b546562ce5faab745b56f770af49c24a, type: 3}
-  Parent: {fileID: 1576639414}
-  player: {fileID: 2084947468}
   ChickenHolder: {fileID: 1576639414}
---- !u!114 &747707524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 747707521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a20d86df764d65e4c9fda526fa5fb156, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 333e77f0c69afb84eb0213af0b9a45d4, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 747707523}
-        m_TargetAssemblyTypeName: ChickenSpawner, Assembly-CSharp
-        m_MethodName: DecreaseChickensAvailableCount
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  player: {fileID: 2084947468}
 --- !u!114 &747707525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4908,8 +4878,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831266310}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
-  m_LocalPosition: {x: 0, y: 30, z: -25.1}
+  m_LocalRotation: {x: 0.4232659, y: 0, z: 0, w: 0.9060055}
+  m_LocalPosition: {x: 0.4, y: 30, z: -32.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10359,8 +10329,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.000000012325408, z: 0.00000000575816, w: 0.90600556}
-  m_LocalPosition: {x: 0, y: 30, z: -25.1}
+  m_LocalRotation: {x: 0.4232659, y: 0, z: 0, w: 0.9060055}
+  m_LocalPosition: {x: 0.4, y: 30, z: -32.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12955,7 +12925,7 @@ Transform:
   m_GameObject: {fileID: 2084947465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.4, y: 0, z: -7.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13089,7 +13059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3636be84e0bc4f43a72d8ee4ffb9996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnChickenReleased: {fileID: 0}
+  OnChickenReleased: {fileID: 11400000, guid: 8de6206efa6e5a246b0d7caf452c53c3, type: 2}
   Entrance: {fileID: 1983595010}
   ThrowStart: {fileID: 1607111106}
 --- !u!1001 &2090718680
