@@ -77,10 +77,8 @@ public class Rooster : MonoBehaviour
         if (agent.velocity.magnitude <= 0f)
         {
             animator.SetBool("isWalking", false);
-            if (!isCharging)
-            {
-                StopDustParticles();
-            }
+            StopDustParticles();
+
 
         }
         else
