@@ -65,7 +65,7 @@ public class ChickenSpawner : MonoBehaviour
         return null;
     }
 
-    private Vector3 GrabSpawnPoint1()
+    private Vector3 GrabSpawnPoint()
     {
         var x = Random.Range(-19f, 25f);
         var z = Random.Range(-11f,13f);
