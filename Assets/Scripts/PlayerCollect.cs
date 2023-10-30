@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerCollect : MonoBehaviour
 {
     public Action<GameObject> OnGrabChicken;
+    public GameEvent OnCollect;
 
     public float radius;
     [Range(0,360)]
@@ -56,6 +57,7 @@ public class PlayerCollect : MonoBehaviour
         {
             var chicken = GrabClosestChicken();
             OnGrabChicken?.Invoke(chicken);
+            OnCollect.Raise();
             chicken.SetActive(false);
             closeChickens.Clear();
         }

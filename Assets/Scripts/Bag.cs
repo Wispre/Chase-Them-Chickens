@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class Bag : MonoBehaviour
 {
+    public GameEvent OnChickenReleased;
+
     public Transform Entrance;
     public Transform ThrowStart;
 
@@ -31,6 +33,7 @@ public class Bag : MonoBehaviour
             chicken.GetComponent<NavMeshAgent>().Warp(this.transform.position);
             chicken.transform.rotation = Utils.GetRandomRotationY();
             chickens.Remove(chicken);
+            OnChickenReleased.Raise();
         }
     }
 
@@ -49,6 +52,7 @@ public class Bag : MonoBehaviour
             movementScript.isCarried = false;
 
             chickens.Remove(chicken);
+            OnChickenReleased.Raise();
         }
     }
 

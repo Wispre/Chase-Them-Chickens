@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class ChickenSpawner : MonoBehaviour
 {
     public NavMeshAgent ChickenPrefab;
-    public GameObject Parent;
+    public GameObject ChickenHolder;
     public Transform player;
 
     private float cameraLeft = 16f;
@@ -19,42 +19,66 @@ public class ChickenSpawner : MonoBehaviour
     private float landUp = 14f;
     private float landDown = 11f;
 
+    private int minChickensAvailable = 15;
+    private int chickensAvailable = 0;
+
     private WaitForSeconds delayPerSpawn = new WaitForSeconds(5);
+
+    public void SpawnChicken()
+    {
+        if (chickensAvailable >= minChickensAvailable) return;
+
+        var chicken = GrabInactiveChicken();
+
+        if (chicken != null)
+        {
+            chicken.gameObject.SetActive(true);
+            chicken.Warp(GrabSpawnPoint());
+            chicken.transform.rotation = Utils.GetRandomRotationY();
+            chicken.transform.parent = ChickenHolder.transform;
+        }
+        else
+        {
+            chicken = Instantiate(ChickenPrefab, Vector3.zero, Utils.GetRandomRotationY());
+            chicken.Warp(GrabSpawnPoint());
+            chicken.transform.parent = ChickenHolder.transform;
+        }
+
+        IncreaseChickensAvailableCount();
+    }
+
+    public void IncreaseChickensAvailableCount()
+    {
+        chickensAvailable++;
+    }
+
+    public void DecreaseChickensAvailableCount()
+    {
+        chickensAvailable--;
+    }
 
     private void Start()
     {
+        chickensAvailable = ChickenHolder.transform.childCount;
+
         StartCoroutine(SpawnChickens());
     }
 
     IEnumerator SpawnChickens()
     {
-        while (true)
+        while (chickensAvailable < minChickensAvailable)
         {
-            var chicken = GrabInactiveChicken();
-
-            if(chicken != null)
-            {
-                chicken.gameObject.SetActive(true);
-                chicken.Warp(GrabSpawnPoint());
-                chicken.transform.rotation = Utils.GetRandomRotationY();
-                chicken.transform.parent = Parent.transform;
-            }
-            else
-            {
-                chicken = Instantiate(ChickenPrefab, Vector3.zero, Utils.GetRandomRotationY());
-                chicken.Warp(GrabSpawnPoint());
-                chicken.transform.parent = Parent.transform;
-            }
-
+            SpawnChicken();
+            chickensAvailable++;
             yield return delayPerSpawn;
         }
     }
 
     private NavMeshAgent GrabInactiveChicken()
     {
-        for (int i = 0; i < Parent.transform.childCount; i++)
+        for (int i = 0; i < ChickenHolder.transform.childCount; i++)
         {
-            var child = Parent.transform.GetChild(i).gameObject;
+            var child = ChickenHolder.transform.GetChild(i).gameObject;
 
             if (!child.activeInHierarchy && !child.GetComponent<ChickenMovement>().isCarried)
             {
@@ -63,14 +87,6 @@ public class ChickenSpawner : MonoBehaviour
         }
 
         return null;
-    }
-
-    private Vector3 GrabSpawnPoint2()
-    {
-        var x = Random.Range(-19f, 25f);
-        var z = Random.Range(-11f,13f);
-
-        return new Vector3(x, 0f, z);
     }
 
     private Vector3 GrabSpawnPoint()
@@ -130,8 +146,6 @@ public class ChickenSpawner : MonoBehaviour
         {
             z -= cameraDown - player.position.z;
         }
-
-        //print($"{x} 0 {z}");
 
         return new Vector3(x, 0f, z);
     }
