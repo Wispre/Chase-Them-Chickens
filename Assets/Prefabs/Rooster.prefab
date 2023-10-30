@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8294216001303157449}
   - component: {fileID: 4538198848764822019}
   - component: {fileID: 977844169766030244}
+  - component: {fileID: 8638255691038359118}
+  - component: {fileID: 6308548426462155079}
   m_Layer: 11
   m_Name: Rooster
   m_TagString: Untagged
@@ -50,12 +52,12 @@ NavMeshAgent:
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 270
+  m_AngularSpeed: 360
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 0.86
+  m_Height: 1.19
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -78,8 +80,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.6477837
-  m_Center: {x: 0.044297636, y: 0.48, z: 0}
+  m_Radius: 0.7748963
+  m_Center: {x: -0.08281499, y: 0.47999996, z: 0}
 --- !u!114 &4538198848764822019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +122,62 @@ MonoBehaviour:
   ConstantForce: {x: 0, y: 0, z: 0}
   Parent: {fileID: 0}
   attemptTimeNormalization: 0
+--- !u!114 &8638255691038359118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4419450584869258359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20d86df764d65e4c9fda526fa5fb156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: d2edc24f1f96ac74d88faff7b1725b8e, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4538198848764822019}
+        m_TargetAssemblyTypeName: Rooster, Assembly-CSharp
+        m_MethodName: AngerRooster
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6308548426462155079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4419450584869258359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20d86df764d65e4c9fda526fa5fb156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 333e77f0c69afb84eb0213af0b9a45d4, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4538198848764822019}
+        m_TargetAssemblyTypeName: Rooster, Assembly-CSharp
+        m_MethodName: AngerRooster
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &6932561439747917176
 PrefabInstance:
   m_ObjectHideFlags: 0
