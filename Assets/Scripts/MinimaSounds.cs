@@ -14,6 +14,22 @@ public class MinimaSounds : MonoBehaviour
 
         audioSource.clip = chosenScream;
         audioSource.Play();
-
     }
+
+    public void PlayMinimaChicken()
+    {
+        var soundChance = Random.Range(0, 100);
+
+        if (soundChance < 20)
+        {
+            if (!audioSource.isPlaying)
+            {
+                var chosenChicken = Chicken[Random.Range(0, Chicken.Length)];
+                audioSource.clip = chosenChicken;
+                audioSource.Play();
+            }
+        }
+    }
+
+
 }

@@ -12996,6 +12996,7 @@ GameObject:
   - component: {fileID: 2084947474}
   - component: {fileID: 2084947473}
   - component: {fileID: 2084947472}
+  - component: {fileID: 2084947475}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13337,6 +13338,34 @@ MonoBehaviour:
   Chicken:
   - {fileID: 8300000, guid: f8f1f7f66334ac04188cec71c7463ef4, type: 3}
   - {fileID: 8300000, guid: b23d4ab5f48ce2b46ac55463c69d9997, type: 3}
+--- !u!114 &2084947475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084947465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20d86df764d65e4c9fda526fa5fb156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: d2edc24f1f96ac74d88faff7b1725b8e, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2084947474}
+        m_TargetAssemblyTypeName: MinimaSounds, Assembly-CSharp
+        m_MethodName: PlayMinimaChicken
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2090718680
 PrefabInstance:
   m_ObjectHideFlags: 0
