@@ -92,7 +92,6 @@ public class ChickenMovement : MonoBehaviour
     {
         state = State.fear;
         this.scaryTarget = scaryTarget;
-
         var randomradius = Random.Range(5f,10f);
 
         Vector3 spot = Utils.GetPointAroundNoY(this.scaryTarget, randomradius);
