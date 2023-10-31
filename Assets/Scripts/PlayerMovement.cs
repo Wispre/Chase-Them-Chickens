@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     public GameEvent OnHit;
-    //public Animator animator;
+    public Animator animator;
 
     public LayerMask groundLayer;
 
@@ -97,10 +97,10 @@ public class PlayerMovement : MonoBehaviour
         
         if(rb.velocity != Vector3.zero)
         {
-            //animator.SetBool("Run", true);
+            animator.SetBool("Run", true);
         }
         else{
-            //animator.SetBool("Run", false);
+            animator.SetBool("Run", false);
         }
 
     }
