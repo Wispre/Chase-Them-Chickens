@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isGrounded = true;
 
+    public Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -92,6 +94,15 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 MoveVector = movementInput * GetModifiedSpeed();
         rb.velocity = new Vector3(MoveVector.x, rb.velocity.y, MoveVector.z);
+        
+        if(rb.velocity != Vector3.zero)
+        {
+            animator.SetBool("Run", true);
+        }
+        else{
+            animator.SetBool("Run", false);
+        }
+
     }
 
     private void Rotate()
