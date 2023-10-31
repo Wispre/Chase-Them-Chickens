@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
 
     public PlayerCollect collect;
     public Bag bag;
+    public Animator animator;
 
     private Camera cam;
 
@@ -28,8 +29,6 @@ public class PlayerMovement : MonoBehaviour
     private bool inGrabPenalty = false;
 
     private bool isGrounded = true;
-
-    public Animator animator;
 
     private void Awake()
     {
