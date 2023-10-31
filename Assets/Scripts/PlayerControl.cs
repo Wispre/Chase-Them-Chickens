@@ -10,6 +10,7 @@ public class PlayerControl : MonoBehaviour, IWorkInGameplay
     public void StartWorking()
     {
         input.enabled = true;
+        transform.position = Vector3.zero;
     }
 
     public void StopWorking()
