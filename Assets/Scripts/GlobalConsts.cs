@@ -6,4 +6,5 @@ public static class GlobalConsts
 {
     public const string CURRENT_SCORE = "current_score";
     public const string HIGH_SCORE = "high_score";
+    public const string COMPLETED_TUTORIAL = "completed_tutorial";
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Rooster : MonoBehaviour
+public class Rooster : MonoBehaviour, IWorkInGameplay
 {
     public AudioSource sfxSource;
     public AudioClip PreparingToCharge;
@@ -45,6 +45,8 @@ public class Rooster : MonoBehaviour
     private WaitForSeconds screamCD = new WaitForSeconds(20);
 
     private bool roosterNotAngered = true;
+
+    private bool inGameplay = true;
 
     public void AngerRooster()
     {
@@ -187,6 +189,8 @@ public class Rooster : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if(!inGameplay) { return; }
+
         if (collision.collider.tag == "Player")
         {
             FindRestingSpot(collision.transform.position);
@@ -236,5 +240,23 @@ public class Rooster : MonoBehaviour
     private void SetNewTimer()
     {
         timer = Random.Range(minWaitTime, maxWaitTime);
+    }
+
+    public void StartWorking()
+    {
+        inGameplay = true;
+    }
+
+    public void StopWorking()
+    {
+        inGameplay = false;
+        state = State.Idle;
+        roosterNotAngered = true;
+        agent.speed = 3.5f;
+        agent.acceleration = 8f;
+        roosterNotAngered = true;
+        timer = 0f;
+        currentAngerDuration = 1f;
+
     }
 }

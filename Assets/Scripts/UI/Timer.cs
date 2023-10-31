@@ -3,10 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
+public class Timer : MonoBehaviour, IWorkInGameplay
 {
-    public float time;
+    public GameManager manager;
+
+    public float startTime;
+
+    private float time;
     private TMP_Text timer;
+
+    public void StartWorking()
+    {
+        time = startTime;
+        timer.text = time.ToString("F0");
+        StartCoroutine(StartTimer());
+    }
+
+    public void StopWorking()
+    {
+        time = startTime;
+        StopAllCoroutines();
+    }
 
     void Awake()
     {
@@ -26,5 +43,6 @@ public class Timer : MonoBehaviour
             timer.text = time.ToString("F0");
             yield return null;
         }
+        manager.ShowGameOver();
     }
 }

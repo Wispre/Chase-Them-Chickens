@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreManager : MonoBehaviour
+public class ScoreManager : MonoBehaviour, IWorkInGameplay
 {
     public int score { get; private set; }
 
@@ -24,5 +24,15 @@ public class ScoreManager : MonoBehaviour
     void OnDisable()
     {
         PlayerPrefs.SetFloat(GlobalConsts.CURRENT_SCORE, score);
+    }
+
+    public void StartWorking()
+    {
+        score = 0;
+    }
+
+    public void StopWorking()
+    {
+        
     }
 }
