@@ -8,9 +8,15 @@ public class Bag : MonoBehaviour
 {
     public GameEvent OnChickenReleased;
 
+    [Tooltip("For bag sizing")]
+    public GameEvent OnSingleChickenReleased;
+    public GameEvent OnAllChickenReleased;
+
+    [Header("Positioning")]
     public Transform Entrance;
     public Transform ThrowStart;
 
+    [Header("Animation")]
     public Animator animator;
 
     private PlayerCollect playerCollect;
@@ -42,12 +48,19 @@ public class Bag : MonoBehaviour
 
             chickens.Remove(chicken);
             OnChickenReleased.Raise();
+            OnSingleChickenReleased.Raise();
+
         }
     }
 
     public void ForceRelease(float percentage)
     {
         var amountToRelease = chickens.Count * percentage;
+
+        if(chickens.Count > 0)
+        {
+            OnAllChickenReleased.Raise();
+        }
 
         for(int i = 0; i < amountToRelease; i++)
         {
@@ -126,5 +139,4 @@ public class Bag : MonoBehaviour
 
         return new Vector3(spotInCircle.x, 0f, spotInCircle.y) + playerPos;
     }
-
 }
