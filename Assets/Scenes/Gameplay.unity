@@ -543,6 +543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -616,6 +620,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -691,6 +699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -764,6 +776,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -839,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -913,6 +933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -986,6 +1010,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1130,6 +1158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1284,6 +1316,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1876,6 +1912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2172,6 +2212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2245,6 +2289,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2558,6 +2606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2773,6 +2825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2846,6 +2902,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2965,6 +3025,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3038,6 +3102,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (09)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3113,6 +3181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3186,6 +3258,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3623,6 +3699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3900,6 +3980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3973,6 +4057,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4109,6 +4197,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4374,6 +4466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4581,6 +4677,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4869,6 +4969,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5579,6 +5683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5679,6 +5787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5752,6 +5864,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5827,6 +5943,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5900,6 +6020,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6045,6 +6169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6118,6 +6246,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6466,6 +6598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6601,6 +6737,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6825,6 +6965,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7164,6 +7308,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7903,6 +8051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8099,6 +8251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8173,6 +8329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8246,6 +8406,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8419,6 +8583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8555,6 +8723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8628,6 +8800,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9123,6 +9299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9291,6 +9471,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (07)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9689,6 +9873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9962,6 +10150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10036,6 +10228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10109,6 +10305,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10372,6 +10572,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10875,6 +11079,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11813,6 +12021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12166,6 +12378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12240,6 +12456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12265,7 +12485,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &1290262821
 MonoBehaviour:
@@ -12536,6 +12756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12770,6 +12994,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13078,6 +13306,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13457,6 +13689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13628,6 +13864,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14087,6 +14327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14160,6 +14404,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14664,6 +14912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14874,6 +15126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14947,6 +15203,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15148,6 +15408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15221,6 +15485,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15442,6 +15710,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15756,6 +16028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15829,6 +16105,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15973,6 +16253,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16171,6 +16455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16448,6 +16736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16522,6 +16814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16595,6 +16891,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17337,6 +17637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17411,6 +17715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17484,6 +17792,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17726,6 +18038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17800,6 +18116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17873,6 +18193,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18144,6 +18468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18218,6 +18546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18291,6 +18623,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence poleH (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18440,6 +18776,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18921,6 +19261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence poleH (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19205,6 +19549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence pole (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19445,6 +19793,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
       propertyPath: m_Name
       value: fence pole (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5117700066308340382, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -3272106112100924687, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
@@ -116,6 +120,10 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[0]
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 117214286460000749, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 193323465437373562, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -152,6 +160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8442137758569561092, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -187,34 +199,5 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5055979236615950974}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
---- !u!1 &2799317189894293275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e96b7feaf69064b4da2faedc8db5c48a, type: 3}
-  m_PrefabInstance: {fileID: 3033251276080446026}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &5055979236615950974
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2799317189894293275}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 021454d9931cee14998a93a3570ab294, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
