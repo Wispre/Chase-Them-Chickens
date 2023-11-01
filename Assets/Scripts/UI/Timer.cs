@@ -32,7 +32,6 @@ public class Timer : MonoBehaviour, IWorkInGameplay
     private void Start()
     {
         timer.text = time.ToString("F0");
-        StartCoroutine(StartTimer());
     }
 
     IEnumerator StartTimer()
