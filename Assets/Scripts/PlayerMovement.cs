@@ -122,8 +122,15 @@ public class PlayerMovement : MonoBehaviour
         if (Pause.IsPaused) return;
         isGrounded = GroundCheck();
 
-        if (!isGrounded) return;
+        if (isGrounded)
+        {
+            animator.SetBool("isGrounded", true);
             Rotate();
+        }
+        else
+        {
+            animator.SetBool("isGrounded", false);
+        }
     }
 
     private void FixedUpdate()
