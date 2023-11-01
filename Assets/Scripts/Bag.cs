@@ -26,7 +26,7 @@ public class Bag : MonoBehaviour
     {
         if (ctx.started)
         {
-            animator.Play("Drop");
+            animator.SetTrigger("onDrop");
             if (chickens.Count <= 0) { return; }
 
             var chicken = chickens[0];

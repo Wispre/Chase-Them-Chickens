@@ -25,7 +25,7 @@ public class PlayerCollect : MonoBehaviour
         if (ctx.started) 
         {
             LookForChicken();
-            animator.Play("Grab");
+            animator.SetTrigger("onGrab");
         }
     }
 
