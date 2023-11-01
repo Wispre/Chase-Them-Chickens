@@ -36,7 +36,7 @@ ModelImporter:
       name: Matcha_Skele|Animations Timeline.001
       takeName: Matcha_Skele|Animations Timeline.001
       internalID: -8502354949879504299
-      firstFrame: 0
+      firstFrame: 2
       lastFrame: 153
       wrapMode: 0
       orientationOffsetY: 0
@@ -65,7 +65,7 @@ ModelImporter:
       name: Idle
       takeName: Matcha_Skele|Animations Timeline.001
       internalID: 166781272539184985
-      firstFrame: 1
+      firstFrame: 2
       lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0

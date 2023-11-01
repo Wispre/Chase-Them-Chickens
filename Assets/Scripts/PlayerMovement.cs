@@ -94,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 MoveVector = movementInput * GetModifiedSpeed();
         rb.velocity = new Vector3(MoveVector.x, rb.velocity.y, MoveVector.z);
         
-        if(rb.velocity != Vector3.zero)
+        if(MoveVector.magnitude >= 0.01f)
         {
             animator.SetBool("Run", true);
         }
