@@ -12939,7 +12939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.4232659, y: -0.00000001943308, z: 0.000000009078709, w: 0.9060055}
+  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
   m_LocalPosition: {x: 0.96, y: 30, z: -28.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -13647,7 +13647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -63.773193}
+  m_AnchoredPosition: {x: 0, y: -63.773132}
   m_SizeDelta: {x: -622.462, y: -453.8154}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858336338
@@ -15625,7 +15625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnCollect: {fileID: 11400000, guid: d2edc24f1f96ac74d88faff7b1725b8e, type: 2}
-  animator: {fileID: 0}
+  animator: {fileID: 904760840}
   radius: 2.12
   angle: 78
   targetMask:
