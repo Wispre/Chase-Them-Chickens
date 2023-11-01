@@ -54,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(0f,rb.velocity.y,0f);
 
         OnHit.Raise();
+        animator.SetTrigger("onHit");
     }
 
     private float GetModifiedSpeed()
