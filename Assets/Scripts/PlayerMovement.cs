@@ -126,13 +126,11 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded)
         {
             animator.SetBool("isGrounded", true);
-            animator.SetLayerWeight(1, 100);
             Rotate();
         }
         else
         {
             animator.SetBool("isGrounded", false);
-            animator.SetLayerWeight(1, 0);
         }
     }
 
