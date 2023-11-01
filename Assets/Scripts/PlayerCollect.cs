@@ -7,6 +7,7 @@ public class PlayerCollect : MonoBehaviour
 {
     public Action<GameObject> OnGrabChicken;
     public GameEvent OnCollect;
+    public Animator animator;
 
     public float radius;
     [Range(0,360)]
@@ -24,6 +25,7 @@ public class PlayerCollect : MonoBehaviour
         if (ctx.started) 
         {
             LookForChicken();
+            animator.Play("Grab");
         }
     }
 

@@ -11,6 +11,8 @@ public class Bag : MonoBehaviour
     public Transform Entrance;
     public Transform ThrowStart;
 
+    public Animator animator;
+
     private PlayerCollect playerCollect;
     private List<GameObject> chickens = new List<GameObject>();
 
@@ -24,6 +26,7 @@ public class Bag : MonoBehaviour
     {
         if (ctx.started)
         {
+            animator.Play("Drop");
             if (chickens.Count <= 0) { return; }
 
             var chicken = chickens[0];
