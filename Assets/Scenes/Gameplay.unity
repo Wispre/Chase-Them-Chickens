@@ -967,6 +967,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -1014,6 +1022,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1117,7 +1141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &52486209
 Transform:
@@ -1137,6 +1161,7 @@ Transform:
   - {fileID: 1629769256}
   - {fileID: 837833993}
   - {fileID: 1115388952}
+  - {fileID: 668095543}
   - {fileID: 1426505262}
   - {fileID: 806218841}
   - {fileID: 1555005283}
@@ -1395,9 +1420,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1457,9 +1494,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1759,9 +1808,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1773,6 +1834,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
   m_PrefabInstance: {fileID: 82980953}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &107510269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+  m_PrefabInstance: {fileID: 1870403188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &117753460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1126730204}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.85
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.32176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -39.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_Name
+      value: LeafyPlant_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
 --- !u!1001 &128813940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2055,9 +2190,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3037,9 +3184,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3333,9 +3492,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4480,6 +4651,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.11
@@ -4519,6 +4698,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5640,6 +5835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5698,9 +5897,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6180,6 +6391,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 662514677}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &668095543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+  m_PrefabInstance: {fileID: 1755440751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &671457046
 GameObject:
   m_ObjectHideFlags: 0
@@ -6481,6 +6697,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.872795
@@ -6520,6 +6744,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6661,6 +6901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6722,6 +6966,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6939,9 +7187,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7200,6 +7460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7261,6 +7525,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8585,6 +8853,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 795238118}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &796540332 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+  m_PrefabInstance: {fileID: 1696548496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &801972130
 GameObject:
   m_ObjectHideFlags: 0
@@ -8630,6 +8903,14 @@ PrefabInstance:
     - target: {fileID: 2799317189894293275, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_Name
       value: Yels_Bush (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
@@ -8678,6 +8959,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9139,6 +9436,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -9186,6 +9491,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9274,6 +9595,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 841195290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &847094139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+  m_PrefabInstance: {fileID: 117753460}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &863218855
 GameObject:
@@ -9378,6 +9704,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9749,6 +10079,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.57
@@ -9788,6 +10126,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9929,6 +10283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10065,9 +10423,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10576,6 +10946,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11302,6 +11676,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12042,6 +12420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12052,6 +12434,67 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
   m_PrefabInstance: {fileID: 1090104519}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1091147603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1447889844}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.32176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -54.18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_Name
+      value: LeafyTree_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
 --- !u!1001 &1092456636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12399,6 +12842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -12446,6 +12897,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12507,7 +12974,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1126730204
 Transform:
@@ -12530,6 +12997,9 @@ Transform:
   - {fileID: 732518861}
   - {fileID: 1851640401}
   - {fileID: 614161346}
+  - {fileID: 796540332}
+  - {fileID: 107510269}
+  - {fileID: 847094139}
   - {fileID: 1616264448}
   - {fileID: 315289465}
   - {fileID: 1820639516}
@@ -12594,9 +13064,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13299,6 +13781,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2
@@ -13346,6 +13836,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13474,6 +13980,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.797775
@@ -13513,6 +14027,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14172,6 +14702,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15053,6 +15587,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.98
@@ -15092,6 +15634,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15195,7 +15753,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1447889844
 Transform:
@@ -15215,6 +15773,7 @@ Transform:
   - {fileID: 612765369}
   - {fileID: 689176778}
   - {fileID: 1011255826}
+  - {fileID: 1505963798}
   - {fileID: 2040444147}
   - {fileID: 1090104520}
   - {fileID: 764873227}
@@ -15310,6 +15869,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15544,6 +16107,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.81
@@ -15583,6 +16154,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15672,6 +16259,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 1484089221}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1505963798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+  m_PrefabInstance: {fileID: 1091147603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1518492699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15723,6 +16315,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15782,6 +16378,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.4
@@ -15821,6 +16425,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16180,9 +16800,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16245,6 +16877,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16334,6 +16970,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.67
@@ -16373,6 +17017,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16727,6 +17387,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
       propertyPath: m_Name
       value: LeafyTree_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17561,6 +18225,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1696000175}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1696548496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1126730204}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.95
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.32176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -53.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_Name
+      value: LeafyPlant_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
 --- !u!1001 &1702575015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17609,9 +18342,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17749,9 +18494,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17980,14 +18737,103 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747702582}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.42326593, y: 0.000000023412692, z: -0.000000010937898, w: 0.9060055}
-  m_LocalPosition: {x: 0.96, y: 30, z: -28.11}
+  m_LocalRotation: {x: 0.4232659, y: 0.000000012325408, z: -0.00000000575816, w: 0.90600556}
+  m_LocalPosition: {x: 0, y: 30, z: -25.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 966691835}
   m_Father: {fileID: 1641262812}
   m_LocalEulerAnglesHint: {x: 53.1, y: 0, z: 0}
+--- !u!1001 &1755440751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 52486209}
+    m_Modifications:
+    - target: {fileID: 2799317189894293275, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_Name
+      value: Yels_Bush (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1849303
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4123891
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9110078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 131.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
 --- !u!1001 &1765821243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18114,9 +18960,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18465,6 +19323,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -18512,6 +19378,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18613,6 +19495,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.39
@@ -18652,6 +19542,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18711,9 +19617,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18968,9 +19886,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19145,6 +20075,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0503fc3751422b42af17df6cf19e7a5, type: 3}
   m_PrefabInstance: {fileID: 1870232524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1870403188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1126730204}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.74
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33.32176
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -55.83
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_Name
+      value: LeafyPlant_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
 --- !u!1001 &1880825311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19681,6 +20680,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -19728,6 +20735,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20492,6 +21515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafyTree_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f6cd7c8c00fdf94a9ac8b3f81ed15d0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20684,9 +21711,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5568371526223589888, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
       propertyPath: m_Name
       value: LeafyPlant_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 505233aa34aa5f349859c93fb1930738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21166,7 +22205,7 @@ Transform:
   m_GameObject: {fileID: 2084947465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.96, y: 0, z: -3.01}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21472,18 +22511,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2084947474}
         m_TargetAssemblyTypeName: MinimaSounds, Assembly-CSharp
         m_MethodName: PlayMinimaChicken
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2084947471}
-        m_TargetAssemblyTypeName: Bag, Assembly-CSharp
-        m_MethodName: MakeBagBigger
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22177,6 +23204,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yels_Bush (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3006890292030264558, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3074855367391304036, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -22224,6 +23259,22 @@ PrefabInstance:
     - target: {fileID: 3283964754518547873, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485885165787616446, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507905869398157817, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884677089738185053, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090984636531444047, guid: 1747607490b127e49b1ddffd287fbb8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

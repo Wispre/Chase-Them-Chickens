@@ -92,9 +92,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        Vector3 MoveVector = movementInput * GetModifiedSpeed();
+        var modSpeed = GetModifiedSpeed();
+
+        Vector3 MoveVector = movementInput * modSpeed;
         rb.velocity = new Vector3(MoveVector.x, rb.velocity.y, MoveVector.z);
-        
+
+        animator.SetFloat("speedMultiplier", modSpeed / 7); print(modSpeed / 7);
+
         if(MoveVector.magnitude >= 0.01f)
         {
             animator.SetBool("Run", true);
