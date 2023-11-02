@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 MoveVector = movementInput * modSpeed;
         rb.velocity = new Vector3(MoveVector.x, rb.velocity.y, MoveVector.z);
 
-        animator.SetFloat("speedMultiplier", modSpeed / 7); print(modSpeed / 7);
+        animator.SetFloat("speedMultiplier", modSpeed / 7);
 
         if(MoveVector.magnitude >= 0.01f)
         {

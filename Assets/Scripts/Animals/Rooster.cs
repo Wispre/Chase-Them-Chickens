@@ -183,7 +183,7 @@ public class Rooster : MonoBehaviour, IWorkInGameplay
         restingSpot.y = 0f;
         if(agent.velocity.magnitude <= 0)
         {
-            state = State.Anger;
+            ResetAnger();
         }
     }
 
@@ -242,6 +242,17 @@ public class Rooster : MonoBehaviour, IWorkInGameplay
         timer = Random.Range(minWaitTime, maxWaitTime);
     }
 
+    private void ResetAnger()
+    {
+        state = State.Idle;
+        roosterNotAngered = true;
+        agent.speed = 3.5f;
+        agent.acceleration = 8f;
+        roosterNotAngered = true;
+        timer = 0f;
+        currentAngerDuration = 1f;
+    }
+
     public void StartWorking()
     {
         inGameplay = true;
@@ -250,13 +261,7 @@ public class Rooster : MonoBehaviour, IWorkInGameplay
     public void StopWorking()
     {
         inGameplay = false;
-        state = State.Idle;
-        roosterNotAngered = true;
-        agent.speed = 3.5f;
-        agent.acceleration = 8f;
-        roosterNotAngered = true;
-        timer = 0f;
-        currentAngerDuration = 1f;
+        ResetAnger();
 
     }
 }
