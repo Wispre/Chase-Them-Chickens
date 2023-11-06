@@ -14,6 +14,18 @@ public class ScoreManager : MonoBehaviour, IWorkInGameplay
     public void SaveScore()
     {
         PlayerPrefs.SetInt(GlobalConsts.CURRENT_SCORE, score);
+
+        if (score > PlayerPrefs.GetInt(GlobalConsts.HIGH_SCORE, 0))
+        {
+            PlayerPrefs.SetInt(GlobalConsts.HIGH_SCORE, score);
+        }
+
+        print($"score saved {PlayerPrefs.GetInt(GlobalConsts.CURRENT_SCORE)}            {PlayerPrefs.GetInt(GlobalConsts.HIGH_SCORE)}");
+    }
+
+    void Awake()
+    {
+        GameManager.Instance.OnGameOver += SaveScore;
     }
 
     void OnEnable()
@@ -33,6 +45,5 @@ public class ScoreManager : MonoBehaviour, IWorkInGameplay
 
     public void StopWorking()
     {
-        
     }
 }

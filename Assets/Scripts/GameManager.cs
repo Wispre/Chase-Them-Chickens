@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public Action Reset;
+    public Action OnGameOver;
 
     public GameStateChange[] Canvases;
     public GameObject[] ObjsWorkInGamePlay;
@@ -66,6 +67,7 @@ public class GameManager : MonoBehaviour
 
     public void ShowGameOver()
     {
+        Instance.OnGameOver?.Invoke();
         ChangeState(GameStates.GameOver);
         MenuCam.Priority = 20;
         GameplayCam.Priority = 10;
