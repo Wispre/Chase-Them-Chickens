@@ -22,7 +22,7 @@ public class ChickenSpawner : MonoBehaviour
     private int minChickensAvailable = 15;
     private int chickensAvailable = 0;
 
-    private WaitForSeconds delayPerSpawn = new WaitForSeconds(5);
+    private WaitForSeconds delayPerSpawn = new WaitForSeconds(0.1f);
 
     public void SpawnChicken()
     {

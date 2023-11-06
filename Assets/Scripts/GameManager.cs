@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
-using Unity.VisualScripting;
+using System;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+
+    public Action Reset;
+
     public GameStateChange[] Canvases;
     public GameObject[] ObjsWorkInGamePlay;
 
@@ -16,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        if(Instance == null) Instance = this;
+
         foreach (var work in ObjsWorkInGamePlay) 
         { 
             workInGameplay.Add(work.GetComponent<IWorkInGameplay>());
@@ -55,6 +61,7 @@ public class GameManager : MonoBehaviour
         MenuCam.Priority = 10;
         GameplayCam.Priority = 20;
         WorkInGameplay(true);
+        Instance.Reset?.Invoke();
     }
 
     public void ShowGameOver()

@@ -25005,7 +25005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 288654816}
-  startTime: 60
+  startTime: 10
 --- !u!114 &2109180928
 MonoBehaviour:
   m_ObjectHideFlags: 0

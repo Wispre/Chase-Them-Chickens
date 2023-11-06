@@ -82,6 +82,11 @@ public class Bag : MonoBehaviour
         playerCollect = GetComponent<PlayerCollect>();
     }
 
+    void Start()
+    {
+        GameManager.Instance.Reset += Reset;
+    }
+
     private void OnEnable()
     {
         playerCollect.OnGrabChicken += Increase;
@@ -138,5 +143,15 @@ public class Bag : MonoBehaviour
         var spotInCircle = Random.insideUnitCircle.normalized * radius;
 
         return new Vector3(spotInCircle.x, 0f, spotInCircle.y) + playerPos;
+    }
+
+    private void Reset()
+    {
+        for (int i = chickens.Count - 1; i >= 0; i--)
+        {
+            var chick = chickens[i];
+            chickens.Remove(chick);
+            Destroy(chick);
+        }
     }
 }
