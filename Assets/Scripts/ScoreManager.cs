@@ -19,8 +19,6 @@ public class ScoreManager : MonoBehaviour, IWorkInGameplay
         {
             PlayerPrefs.SetInt(GlobalConsts.HIGH_SCORE, score);
         }
-
-        print($"score saved {PlayerPrefs.GetInt(GlobalConsts.CURRENT_SCORE)}            {PlayerPrefs.GetInt(GlobalConsts.HIGH_SCORE)}");
     }
 
     void Awake()
