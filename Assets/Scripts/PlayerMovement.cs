@@ -107,9 +107,6 @@ public class PlayerMovement : MonoBehaviour
         else{
             animator.SetBool("Run", false);
         }
-
-        print(modSpeed);
-
     }
 
     private void Rotate()
