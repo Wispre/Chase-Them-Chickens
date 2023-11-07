@@ -61,20 +61,21 @@ public class PlayerMovement : MonoBehaviour
     {
         var originalSpeed = speed;
 
-        if (inGrabPenalty)
-        {
-            originalSpeed *= 2;
-
-        }
-
         var speedPercentage = (originalSpeed * speedPenalty);
         var modSpeed = originalSpeed - ( speedPercentage * bag.GetCount());
         var lessThanSlowestSpeed = modSpeed < speed - speed*(1 - speedPenalty);
+
+        if (inGrabPenalty)
+        {
+            modSpeed = modSpeed / 2;
+
+        }
 
         if (lessThanSlowestSpeed)
         {
             modSpeed = speed - speed * (1 - speedPenalty);
         }
+
         return modSpeed;
     }
 
@@ -97,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 MoveVector = movementInput * modSpeed;
         rb.velocity = new Vector3(MoveVector.x, rb.velocity.y, MoveVector.z);
 
-        animator.SetFloat("speedMultiplier", modSpeed / 7);
+        animator.SetFloat("speedMultiplier", modSpeed / speed);
 
         if(MoveVector.magnitude >= 0.01f)
         {
@@ -106,6 +107,8 @@ public class PlayerMovement : MonoBehaviour
         else{
             animator.SetBool("Run", false);
         }
+
+        print(modSpeed);
 
     }
 
@@ -171,12 +174,9 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator Co_SlowingPlayer()
     {
         inGrabPenalty = true;
-        var speedTemp = speed;
-        speed = speedTemp * 0.5f;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
 
-        speed = speedTemp;
         Co_Slow = null;
         inGrabPenalty = false;
     }
